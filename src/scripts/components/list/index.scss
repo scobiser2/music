@@ -1,0 +1,77 @@
+// recList
+@import "@/styles/variable.scss";
+.rec_img{
+    flex: 0 0 60px;
+    padding-right: 20px;
+    width: 60px;/*no*/
+    height: 60px;/*no*/
+    padding-left: 0.4rem;
+}
+.rec_auth{
+    margin-bottom: 10px;/*no*/
+    color: #fff;
+}
+.rec_desc{
+    color: $color-text-d;
+}
+.songListLi{
+    padding: 20px;/*no*/
+    display: flex;
+    background: $color-background;
+    height: 58px;/*no*/
+}
+.rec_Box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: $font-size-medium;
+}
+
+//songList
+.recSongListBox{
+    background: $color-background;
+}
+.recSongList{
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 406px;/*no*/
+}
+.recSongListLi{
+    height: 50px;/*no*/
+    display: flex;
+}
+.recRank{
+    color:$color-theme;/*no*/
+    font-size:$font-size-large;
+    margin-left: 50px;
+    width: 50px;/*no*/
+    height: 50px;/*no*/
+    line-height: 50px;/*no*/
+ 
+}
+
+.recRankName{
+    color:white;
+}
+
+
+.recRankMsg{
+    p{
+            line-height: 25px;/*no*/
+    }
+    :nth-child(2){
+        color:$color-text-d;
+    }
+}
+
+// <li className="recSongListLi">
+// <p class="recRank">xxx</p>
+// <div className="recRankMsg">
+//     <p className="recRankName">xxx</p>
+//     <p classname="recRankAuth">xxx</p>
+// </div>
+// </li>

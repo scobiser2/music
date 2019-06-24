@@ -1,0 +1,12 @@
+@import "@/styles/variable.scss";
+
+.rec{
+    font-size:  $font-size-medium;
+    background: $color-background;
+    color:$color-theme ;
+    width: 100%;
+    height: 50px;/*no*/
+    text-align: center;
+    line-height: 50px;/*no*/
+}
+

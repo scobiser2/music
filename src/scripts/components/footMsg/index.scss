@@ -1,0 +1,21 @@
+
+
+.footer{
+    text-align: center;
+    display:flex;
+    flex-flow: row nowrap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    .footerli{
+        font-size: 30px;
+        // line-height: 50px;
+        flex-grow: 1;
+        background-color:skyblue;
+    }
+}
+.nav-active,.router-link-exact-active{
+    color:#0dc441;
+    border-color:#0dc441;
+}
+//at.alicdn.com/t/font_1246384_n6sl8ymskn.css
